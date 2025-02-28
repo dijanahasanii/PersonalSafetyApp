@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+      "jsx": "react", // Enable JSX support
+      "module": "esnext", // Use ES modules
+      "target": "es6", // Target ES6
+      "checkJs": false, // Disable TypeScript type-checking for JavaScript files
+      "baseUrl": ".", // Base directory for module resolution
+      "paths": {
+        "@/*": ["./*"] // Map @/ to the root directory
+      }
+    },
+    "include": ["**/*.js", "**/*.jsx"], // Include all JavaScript and JSX files
+    "exclude": ["node_modules"] // Exclude node_modules
+  }
